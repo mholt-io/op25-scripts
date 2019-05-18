@@ -1,0 +1,13 @@
+Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
+ICI-Glendale	484.1875,482.1875,482.2375,482.2875	-100	0x37b	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-Burbank	470.0625,470.1125,470.1625,470.2375	-100	0x37e	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-Pasadena	477.2125,477.3625,477.5125,477.6625	-100	0x37a	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-Oat Mountain	472.6625,471.9375,472.200,472.6875	-100	0x370	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-Montebello	482.0375,482.1125,482.2125,482.4125	-100	0x370	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-Pomona	470.025,470.050,470.075,470.100	-100	0x370	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-Beverly Hills	482.625,482.125,482.225	-100	0x37a	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-Culver City	482.5625,482.2625,482.3625,482.4625	-100	0x377	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-Hauser	470.0875	-100	0x377	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-Glendora	471.6375,471.9125	-100	0x379	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI-South Bay	482.500,482.600,470.0375,470.0125	-100	0x370	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
+ICI – Santa Monica	482.325,471.0625,471.0875,482.525	-100	0x370	CQPSK	/home/pi/scripts/ici.tsv	/home/pi/scripts/ici-wl.tsv		
