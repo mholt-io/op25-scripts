@@ -1,0 +1,2 @@
+Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
+ICI-Glendale	484.1875,482.1875,482.2375,482.2875	-100	0x37b	CQPSK	~/op25-scripts/ici/ici.tsv	~/op25-scripts/ici/verdugo/all-wl.tsv
