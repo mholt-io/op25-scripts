@@ -1,2 +1,2 @@
 Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
-ICI-Burbank	470.0625,470.1125,470.1625,470.2375	-100	0x37e	CQPSK	~/op25-scripts/LA_COUNTY/ICI/ici.tsv	~/op25-scripts/LA_COUNTY/ICI/Verdugo/red8.tsv		
+ICI-Burbank	470.0625,470.1125,470.1625,470.2375	-100	0x37e	CQPSK	~/op25-scripts/la_county/ici/ici.tsv	~/op25-scripts/la_county/ici/Verdugo/red8.tsv		
