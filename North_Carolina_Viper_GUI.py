@@ -38,706 +38,706 @@ def stopall():
 #All 236 NC Viper Sites Button Commands
 def CMD_Altamahaw():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Alamance/Altamahaw.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Alamance/Altamahaw.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Cane_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.5875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Alamance/Cane_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.5875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Alamance/Cane_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Mebane():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.39375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Alamance/Mebane.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.39375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Alamance/Mebane.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Barretts_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Alexander/Barretts_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Alexander/Barretts_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Doughton_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.725e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Alleghany/Doughton_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.725e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Alleghany/Doughton_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Green_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Alleghany/Green_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Alleghany/Green_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Mc_Farlan_AAA():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Anson/Mc_Farlan_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Anson/Mc_Farlan_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wadesboro():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Anson/Wadesboro.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Anson/Wadesboro.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Deep_Gap_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Ashe/Deep_Gap_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Ashe/Deep_Gap_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Jefferson_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Ashe/Jefferson_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Ashe/Jefferson_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Phoenix_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Ashe/Phoenix_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Ashe/Phoenix_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Rich_Hill():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.20625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Ashe/Rich_Hill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.20625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Ashe/Rich_Hill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Beech_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Avery/Beech_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Avery/Beech_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Linville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.70625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Avery/Linville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.70625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Avery/Linville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Bath():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.45e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Beaufort/Bath.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.45e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Beaufort/Bath.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Chocowinity():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.775e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Beaufort/Chocowinity.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.775e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Beaufort/Chocowinity.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Windsor():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 857.9875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Bertie/Windsor.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 857.9875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Bertie/Windsor.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Elizabethtown():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Bladen/Elizabethtown.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Bladen/Elizabethtown.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Four_County_EMC_Bladenboro():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Bladen/Four_County_EMC_Bladenboro.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Bladen/Four_County_EMC_Bladenboro.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Lagoon():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.78125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Bladen/Lagoon.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.78125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Bladen/Lagoon.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Bolivia():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 856.6875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Brunswick/Bolivia.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 856.6875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Brunswick/Bolivia.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Southport():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 769.31875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Brunswick/Southport.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 769.31875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Brunswick/Southport.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Pea_Landing():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Brunswick/Pea_Landing.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Brunswick/Pea_Landing.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Supply():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Brunswick/Supply.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Brunswick/Supply.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_High_Windy():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Buncombe/High_Windy.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Buncombe/High_Windy.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Meadows_Moutain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.7375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Buncombe/Meadows_Moutain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.7375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Buncombe/Meadows_Moutain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_White_Fawn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.9625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Buncombe/White_Fawn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.9625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Buncombe/White_Fawn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_High_Peak():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.7875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Burke/High_Peak.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.7875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Burke/High_Peak.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Concord():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.95625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cabarrus/Concord.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.95625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cabarrus/Concord.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Butte_Moutain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.9875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Caldwell/Butte_Moutain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.9875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Caldwell/Butte_Moutain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Hibriten_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.325e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Caldwell/Hibriten_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.325e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Caldwell/Hibriten_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_South_Mills():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Camden/South_Mills.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Camden/South_Mills.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Kuhns_PE():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.85e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Carteret/Kuhns_PE.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.85e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Carteret/Kuhns_PE.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Laurel_Road():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Carteret/Laurel_Road.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Carteret/Laurel_Road.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Newport():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Carteret/Newport.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Carteret/Newport.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Stacy():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Carteret/Stacy.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Carteret/Stacy.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Pelham():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.4375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Caswell/Pelham.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.4375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Caswell/Pelham.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Yanceyville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Caswell/Yanceyville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Caswell/Yanceyville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Anderson_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.73125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Catawba/Anderson_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.73125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Catawba/Anderson_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Baker_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.74375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Catawba/Baker_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.74375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Catawba/Baker_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_River_Bend_Rd():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Catawba/River_Bend_Rd.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Catawba/River_Bend_Rd.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Chatham_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Chatham/Chatham_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Chatham/Chatham_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Siler_City():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Chatham/Siler_City.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Chatham/Siler_City.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Joanna_Bald():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.325e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cherokee/Joanna_Bald.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.325e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cherokee/Joanna_Bald.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Murphy():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cherokee/Murphy.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cherokee/Murphy.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Valhalla():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Chowan/Valhalla.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Chowan/Valhalla.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Chunky_Gal_Gap():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Clay/Chunky_Gal_Gap.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Clay/Chunky_Gal_Gap.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Benns_Knob():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cleveland/Benns_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cleveland/Benns_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Boiling_Springs():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 851.975e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cleveland/Boiling_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 851.975e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cleveland/Boiling_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Kings_Mountain_South():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cleveland/Kings_Mountain_South.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cleveland/Kings_Mountain_South.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Shelby():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cleveland/Shelby.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cleveland/Shelby.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Delco():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Columbus/Delco.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Columbus/Delco.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Nakina():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 771.58125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Columbus/Nakina.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 771.58125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Columbus/Nakina.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Whiteville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Columbus/Whiteville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Columbus/Whiteville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Name():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f Freqse6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/County/Name.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f Freqse6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/County/Name.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_New_Bern():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.03125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Craven/New_Bern.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.03125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Craven/New_Bern.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Fayetteville_TWC():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.45625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cumberland/Fayetteville_TWC.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.45625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cumberland/Fayetteville_TWC.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Slocomb():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cumberland/Slocomb.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cumberland/Slocomb.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Cedar_Creek():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Cumberland/Cedar_Creek.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Cumberland/Cedar_Creek.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Barco():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Currituck/Barco.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Currituck/Barco.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Bodie_Island():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Bodie_Island.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Bodie_Island.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Buxton():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Buxton.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Buxton.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_East_Lake():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/East_Lake.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/East_Lake.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Kitty_Hawk():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.4375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Kitty_Hawk.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.4375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Kitty_Hawk.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Rodanthe():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Rodanthe.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Rodanthe.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Stumpy_Point():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Stumpy_Point.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Dare/Stumpy_Point.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_High_Rock_Lake():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.03125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Davidson/High_Rock_Lake.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.03125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Davidson/High_Rock_Lake.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Lexington():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Davidson/Lexington.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Davidson/Lexington.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Welcome():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.20625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Davidson/Welcome.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.20625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Davidson/Welcome.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Mocksville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.43125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Davie/Mocksville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.43125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Davie/Mocksville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Sheffield():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.88125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Davie/Sheffield.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.88125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Davie/Sheffield.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Chinquapin():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Duplin/Chinquapin.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Duplin/Chinquapin.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Kenansville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.95625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Duplin/Kenansville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.95625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Duplin/Kenansville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Kornegay():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Duplin/Kornegay.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Duplin/Kornegay.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wallace():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Duplin/Wallace.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Duplin/Wallace.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Duke_University():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.8375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Durham/Duke_University.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.8375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Durham/Duke_University.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Camden_Ave():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.8125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Durham/Camden_Ave.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.8125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Durham/Camden_Ave.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Cole_Mill_Rd():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.5125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Durham/Cole_Mill_Rd.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.5125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Durham/Cole_Mill_Rd.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Brian_Center():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.2875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Durham/Brian_Center.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.2875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Durham/Brian_Center.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Dodge_City():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Edgecombe/Dodge_City.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Edgecombe/Dodge_City.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Tarboro_City():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Edgecombe/Tarboro_City.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Edgecombe/Tarboro_City.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Fountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.04375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Edgecombe/Fountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.04375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Edgecombe/Fountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Winston_Salem_State_University():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.95e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Forsyth/Winston_Salem_State_University.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.95e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Forsyth/Winston_Salem_State_University.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Clemmons():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.7875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Forsyth/Clemmons.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.7875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Forsyth/Clemmons.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Hosley_Forest():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Franklin/Hosley_Forest.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Franklin/Hosley_Forest.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Louisburg():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.1375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Franklin/Louisburg.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.1375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Franklin/Louisburg.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Margaret():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Franklin/Margaret.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Franklin/Margaret.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Youngsville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.83125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Franklin/Youngsville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.83125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Franklin/Youngsville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Belmont():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Gaston/Belmont.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Gaston/Belmont.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Cherryville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Gaston/Cherryville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Gaston/Cherryville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Crowders_Mountain_VFD():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Gaston/Crowders_Mountain_VFD.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Gaston/Crowders_Mountain_VFD.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Stanley():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.30625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Gaston/Stanley.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.30625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Gaston/Stanley.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Gatesville_DOC():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.45e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Gates/Gatesville_DOC.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.45e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Gates/Gatesville_DOC.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wauchecha_Bald():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Graham/Wauchecha_Bald.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Graham/Wauchecha_Bald.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Berea():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Berea.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Berea.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Butner():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Butner.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Butner.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Bullock_WICE_FM():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Bullock_WICE_FM.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Bullock_WICE_FM.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Oak_Hill():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Oak_Hill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Oak_Hill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Oxford_Water_Tower():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.975e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Oxford_Water_Tower.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.975e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Granville/Oxford_Water_Tower.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Arba():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.575e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Greene/Arba.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.575e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Greene/Arba.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Farmville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Greene/Farmville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Greene/Farmville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Greensboro_AT():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.74375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Guilford/Greensboro_AT.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.74375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Guilford/Greensboro_AT.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Riverdale_Rd():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Guilford/Riverdale_Rd.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Guilford/Riverdale_Rd.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Brinkleyville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.85e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Halifax/Brinkleyville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.85e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Halifax/Brinkleyville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Halifax():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Halifax/Halifax.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Halifax/Halifax.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Cokesbury():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.55625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Cokesbury.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.55625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Cokesbury.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Erwin_PE():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Erwin_PE.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Erwin_PE.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Lillington():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 854.9875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Lillington.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 854.9875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Lillington.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Spout_Springs():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 854.2375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Spout_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 854.2375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Spout_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Angier():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.08125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Angier.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.08125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Angier.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Broadway():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.49375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Broadway.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.49375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Harnett/Broadway.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Chambers_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 856.1125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Haywood/Chambers_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 856.1125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Haywood/Chambers_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Hazel_Top():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.55625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Haywood/Hazel_Top.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.55625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Haywood/Hazel_Top.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Bearwallow():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.71875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Henderson/Bearwallow.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.71875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Henderson/Bearwallow.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Corbin_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 851.5875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Henderson/Corbin_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 851.5875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Henderson/Corbin_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Jumpoff_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Henderson/Jumpoff_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Henderson/Jumpoff_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Ahoskie():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Hertford/Ahoskie.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Hertford/Ahoskie.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_McCain_Hospital():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.85e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Hoke/McCain_Hospital.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.85e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Hoke/McCain_Hospital.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Engelhard():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Hyde/Engelhard.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Hyde/Engelhard.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Ocracoke():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Hyde/Ocracoke.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Hyde/Ocracoke.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Ponzor():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Hyde/Ponzor.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Hyde/Ponzor.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Rose_Bay():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Hyde/Rose_Bay.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Hyde/Rose_Bay.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Barium_Springs():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.83125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Iredell/Barium_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.83125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Iredell/Barium_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Fox_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.525e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Iredell/Fox_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.525e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Iredell/Fox_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Mooresville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Iredell/Mooresville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Iredell/Mooresville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Toxaway_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Jackson/Toxaway_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Jackson/Toxaway_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Sylva_Jackson_Co_Airport():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Jackson_Sylva_Jackson_Co_Airport.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Jackson_Sylva_Jackson_Co_Airport.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Archers_Lodge():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Johnston/Archers_Lodge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Johnston/Archers_Lodge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Smithfield():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Johnston/Smithfield.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Johnston/Smithfield.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Comfort():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Jones/Comfort.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Jones/Comfort.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Tramway():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Lee/Tramway.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Lee/Tramway.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Kinston():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Lenoir/Kinston.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Lenoir/Kinston.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Seven_Springs():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Lenoir/Seven_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Lenoir/Seven_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Lincolnton():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.89375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Lincoln/Lincolnton.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.89375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Lincoln/Lincolnton.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Cowee_Bald():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.725e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Macon/Cowee_Bald.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.725e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Macon/Cowee_Bald.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Franklin_Water_Tower():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.95625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Macon/Franklin_Water_Tower.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.95625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Macon/Franklin_Water_Tower.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Scaly_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Macon/Scaly_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Macon/Scaly_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wine_Springs():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Macon/Wine_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Macon/Wine_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Big_Knob():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Madison/Big_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Madison/Big_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Viking_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Madison/Viking_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Madison/Viking_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Hap_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.88125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Madison/Hap_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.88125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Madison/Hap_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Williamston():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Martin/Williamston.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Martin/Williamston.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Dobson_Knob():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.8125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/McDowell/Dobson_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.8125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/McDowell/Dobson_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Grants_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.91875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/McDowell/Grants_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.91875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/McDowell/Grants_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Heathway_Drive():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.4375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Mecklenburg/Heathway_Drive.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.4375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Mecklenburg/Heathway_Drive.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Huntersville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.91875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Mecklenburg/Huntersville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.91875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Mecklenburg/Huntersville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Pineville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Mecklenburg/Pineville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Mecklenburg/Pineville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Locust_Knob():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Mitchell/Locust_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Mitchell/Locust_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Woodys_Knob():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.38125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Mitchell/Woodys_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.38125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Mitchell/Woodys_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Biscoe():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.725e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Montgomery/Biscoe.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.725e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Montgomery/Biscoe.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Buck_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.59375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Montgomery/Buck_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.59375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Montgomery/Buck_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Mount_Gilead_AAA():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Montgomery/Mount_Gilead_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Montgomery/Mount_Gilead_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Carthage():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.325e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Moore/Carthage.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.325e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Moore/Carthage.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Southern_Pines():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.18125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Moore/Southern_Pines.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.18125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Moore/Southern_Pines.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Nash_DOC():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.175e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Nash/Nash_DOC.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.175e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Nash/Nash_DOC.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Rocky_Mount():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.4375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Nash/Rocky_Mount.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.4375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Nash/Rocky_Mount.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wilmington_Fredrickson_Rd():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/New_Hanover/Wilmington_Fredrickson_Rd.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/New_Hanover/Wilmington_Fredrickson_Rd.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Carolina_Beach():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.95e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/New_Hanover/Carolina_Beach.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.95e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/New_Hanover/Carolina_Beach.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Eniva_Roanoke_Rapids():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Northampton/Eniva_Roanoke_Rapids.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Northampton/Eniva_Roanoke_Rapids.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Odom_DOC():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.48125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Northampton/Odom_DOC.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.48125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Northampton/Odom_DOC.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Old_Mill():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Northampton/Old_Mill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Northampton/Old_Mill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Holly_Ridge():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Onslow/Holly_Ridge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Onslow/Holly_Ridge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Jacksonville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Onslow/Jacksonville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Onslow/Jacksonville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Chapel_Hill():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Orange/Chapel_Hill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Orange/Chapel_Hill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Eno_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.2625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Orange/Eno_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.2625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Orange/Eno_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Laws():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.7625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Orange/Laws.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.7625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Orange/Laws.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Bayboro():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.4625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Pamlico/Bayboro.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.4625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Pamlico/Bayboro.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Elizabeth_City():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Pasquotank/Elizabeth_City.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Pasquotank/Elizabeth_City.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Burgaw():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Pender/Burgaw.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Pender/Burgaw.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Penderlea():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.4375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Pender/Penderlea.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.4375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Pender/Penderlea.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Scotts_Hill():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.63125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Pender/Scotts_Hill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.63125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Pender/Scotts_Hill.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Winfall():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.66875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Perquimans/Winfall.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.66875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Perquimans/Winfall.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Roxboro_1():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Person/Roxboro_1.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.675e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Person/Roxboro_1.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Roxboro_2():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.63125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Person/Roxboro_2.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.63125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Person/Roxboro_2.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Mt_Tirzah():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 769.26875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Person/Mt_Tirzah.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 769.26875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Person/Mt_Tirzah.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Greenville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Pitt/Greenville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Pitt/Greenville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Tryon_Pk():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Polk/Tryon_Pk.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.3625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Polk/Tryon_Pk.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Asheboro_DOT():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 856.5375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Randolph/Asheboro_DOT.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 856.5375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Randolph/Asheboro_DOT.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Coleridge_AAA():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Randolph/Coleridge_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Randolph/Coleridge_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Shepherd_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Randolph/Shepherd_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Randolph/Shepherd_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Staley():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.68125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Randolph/Staley.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.68125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Randolph/Staley.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Ellerbe():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Richmond/Ellerbe.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Richmond/Ellerbe.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Hamlet():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Richmond/Hamlet.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Richmond/Hamlet.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Rockingham_DOT():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.13125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Richmond/Rockingham_DOT.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.13125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Richmond/Rockingham_DOT.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Lumberton_UNCTV():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.0125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Robeson/Lumberton_UNCTV.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.0125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Robeson/Lumberton_UNCTV.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Proctorville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Robeson/Proctorville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.825e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Robeson/Proctorville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Eden():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Rockingham/Eden.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Rockingham/Eden.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Mayodan():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.66875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Rockingham/Mayodan.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.66875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Rockingham/Mayodan.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Reidsville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Rockingham/Reidsville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Rockingham/Reidsville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wentworth():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.725e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Rockingham/Wentworth.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.725e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Rockingham/Wentworth.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Faith_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.44375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Rowan/Faith_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.44375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Rowan/Faith_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Salisbury():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.13125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Rowan/Salisbury.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.13125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Rowan/Salisbury.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Chimney_Rock():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 771.58125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Rutherford/Chimney_Rock.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 771.58125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Rutherford/Chimney_Rock.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Spindale():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.85e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Rutherford/Spindale.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.85e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Rutherford/Spindale.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Newton_Grove():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.775e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Sampson/Newton_Grove.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.775e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Sampson/Newton_Grove.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Salemburg():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Sampson/Salemburg.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Sampson/Salemburg.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Taylors_Bridge():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.325e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Sampson/Taylors_Bridge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.325e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Sampson/Taylors_Bridge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Laurinburg_PE():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.45e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Scotland/Laurinburg_PE.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.45e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Scotland/Laurinburg_PE.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Albemarle():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Stanly/Albemarle.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Stanly/Albemarle.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Lambert():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.0375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Stanly/Lambert.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.0375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Stanly/Lambert.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Booth_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Stokes/Booth_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Stokes/Booth_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Sandy_Ridge():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Stokes/Sandy_Ridge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Stokes/Sandy_Ridge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Sauratown_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.2375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Stokes/Sauratown_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.2375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Stokes/Sauratown_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Chestnut_Ridge():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Surry/Chestnut_Ridge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Surry/Chestnut_Ridge.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Elkin_DOT():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.0125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Surry/Elkin_DOT.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 859.0125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Surry/Elkin_DOT.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Fishers_Peak():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Surry/Fishers_Peak.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Surry/Fishers_Peak.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Turner_Mtn():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.46875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Surry/Turner_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 774.46875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Surry/Turner_Mtn.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Frye_Mountain():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Swain/Frye_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.9875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Swain/Frye_Mountain.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Mt_Noble():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Swain/Mt_Noble.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Swain/Mt_Noble.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Brevard():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Transylvania/Brevard.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Transylvania/Brevard.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Columbia():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Tyrrell/Columbia.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Tyrrell/Columbia.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Fairview():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.44375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Union/Fairview.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.44375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Union/Fairview.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Monroe():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 860.9375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Union/Monroe.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 860.9375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Union/Monroe.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Waxhaw_AAA():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.6125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Union/Waxhaw_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 858.6125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Union/Waxhaw_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wingate():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Union/Wingate.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Union/Wingate.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Oxford_Bi_Com():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Vance/Oxford_Bi_Com.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Vance/Oxford_Bi_Com.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Archdale_Building():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.5375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/Archdale_Building.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 852.5375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/Archdale_Building.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_West_Raleigh_SHP_C_and_L():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 769.20625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/West_Raleigh_SHP_C_and_L.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 769.20625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/West_Raleigh_SHP_C_and_L.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_NCSHP_Training_Center():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.60625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/NCSHP_Training_Center.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.60625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/NCSHP_Training_Center.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wendell_AAA():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 769.80625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/Wendell_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 769.80625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/Wendell_AAA.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wake_North_Durant():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 860.4625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/Wake_North_Durant.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 860.4625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/Wake_North_Durant.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wake_South_Holly_Springs():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/Wake_South_Holly_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wake/Wake_South_Holly_Springs.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Manson():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.53125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Warren/Manson.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 773.53125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Warren/Manson.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Warrenton_VTN():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.0875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Warren/Warrenton_VTN.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.0875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Warren/Warrenton_VTN.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Plymouth():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 857.2125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Washington/Plymouth.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 857.2125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Washington/Plymouth.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Boone():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7625e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Watauga/Boone.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.7625e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Watauga/Boone.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Buckeye_Knob():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Watauga/Buckeye_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.975e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Watauga/Buckeye_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Lee_Plant_PE():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wayne/Lee_Plant_PE.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.5125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wayne/Lee_Plant_PE.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Pores_Knob():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wilkes/Pores_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.75e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wilkes/Pores_Knob.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Bailey():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 857.1875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wilson/Bailey.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 857.1875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wilson/Bailey.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Wilson():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Wilson/Wilson.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.2375e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Wilson/Wilson.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Yadkin_Rest_Area_I77():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Yadkin/Yadkin_Rest_Area_I77.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.8e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Yadkin/Yadkin_Rest_Area_I77.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Yadkinville():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.96875e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Yadkin/Yadkinville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 772.96875e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Yadkin/Yadkinville.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 def CMD_Clingmans_Peak():
     os.system("pkill -f ./rx.py") 
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  ~/op25/op25/gr-op25_repeater/apps/NC_Viper/Yancey/Clingmans_Peak.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
+    os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 853.6125e6 -o 25000 -q 1 -T  /home/pi/op25/op25/gr-op25_repeater/apps/NC_Viper/Yancey/Clingmans_Peak.tsv -V -2 -U 2> stderr.2 -O plughw:1,0 -l 'http:0.0.0.0:8080'&")
 class OP25_GUI(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
