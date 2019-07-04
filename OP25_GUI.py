@@ -42,64 +42,64 @@ def stopall():
     os.system("pkill -f ./rx.py")
 def CMD_OP25_01():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-All.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-All.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_02():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-Red1.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-Red1.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_03():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-Red2.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-Red2.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_04():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-Red3.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-Red3.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_05():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-Red4.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-Red4.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_06():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-Red5.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-Red5.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_07():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-Red6.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-Red6.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_08():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-Red7.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-Red7.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_09():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-Red8.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-Red8.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_10():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/burbank/Burbank-Red9.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/burbank/Burbank-Red9.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_11():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-All.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-All.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_12():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-Red1.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-Red1.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_13():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-Red2.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-Red2.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_14():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-Red3.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-Red3.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_15():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-Red4.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-Red4.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_16():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-Red5.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-Red5.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_17():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-Red6.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-Red6.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_18():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-Red7.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-Red7.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_19():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-Red8.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-Red8.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 def CMD_OP25_20():
     os.system("pkill -f ./rx.py")
-    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/Verdugo/glendale/Glendale-Red9.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
+    os.system("cd ~/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q 1 -T ~/op25-scripts/la_county/ici/verdugo/glendale/Glendale-Red9.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 
 
 def main():
