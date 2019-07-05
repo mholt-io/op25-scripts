@@ -4,7 +4,7 @@ class Burbank():
         os.system("pkill -f ./rx.py")
         os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q -1 -T /home/pi/op25-scripts/tsv_files/burbank/verdugo_all.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 
-    def bpd():
+    def BPD():
         os.system("pkill -f ./rx.py")
         os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q -1 -T /home/pi/op25-scripts/tsv_files/burbank/bpd.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 
@@ -53,7 +53,7 @@ class Glendale():
         os.system("pkill -f ./rx.py")
         os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q -1 -T /home/pi/op25-scripts/tsv_files/glendale/verdugo_all.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 
-    def bpd():
+    def BPD():
         os.system("pkill -f ./rx.py")
         os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q -1 -T /home/pi/op25-scripts/tsv_files/glendale/bpd.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 
@@ -102,7 +102,7 @@ class Pasadena():
         os.system("pkill -f ./rx.py")
         os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q -1 -T /home/pi/op25-scripts/tsv_files/pasadena/verdugo_all.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 
-    def bpd():
+    def BPD():
         os.system("pkill -f ./rx.py")
         os.system("cd /home/pi/op25/op25/gr-op25_repeater/apps; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q -1 -T /home/pi/op25-scripts/tsv_files/pasadena/bpd.tsv -V -2 -U 2> stderr.2 -l 'http:0.0.0.0:8080'&")
 
