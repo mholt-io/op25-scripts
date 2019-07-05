@@ -38,6 +38,10 @@ import atexit
 def stopall():
     os.system("pkill -f ./rx.py")
 
+def closeall(self):
+    stopall
+    self.mw.destroy()
+    
 class OP25_GUI(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
@@ -45,9 +49,6 @@ class OP25_GUI(threading.Thread):
         self.Favorites()
         atexit.register(stopall)
 
-    def closeall(self):
-        stopall()
-        self.mw.destroy()
 
     def Menu_Main(self):
             self.mw.destroy()
