@@ -33,6 +33,7 @@ import tkinter as tk
 import os
 import threading
 import OP25CMD
+import atexit
 #Commands
 def stopall():
     os.system("pkill -f ./rx.py")
@@ -42,7 +43,11 @@ class OP25_GUI(threading.Thread):
         threading.Thread.__init__(self)
         self.mw = tk.Tk()
         self.Favorites()
-        # self.Menu_Alamance()
+        atexit.register(stopall)
+
+    def closeall(self):
+        stopall()
+        self.mw.destroy()
 
     def Menu_Main(self):
             self.mw.destroy()
@@ -58,7 +63,7 @@ class OP25_GUI(threading.Thread):
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
             #Buttons
-            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
+            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=closeall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
             GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Favorites, width=8, height=2)
             GoToFavorites_OP25.grid(row=0, column=1, padx=9, pady=3)
@@ -88,7 +93,7 @@ class OP25_GUI(threading.Thread):
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
             #Buttons
-            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
+            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=closeall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
             GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Favorites, width=8, height=2)
             GoToFavorites_OP25.grid(row=0, column=1, padx=9, pady=3)
@@ -136,7 +141,7 @@ class OP25_GUI(threading.Thread):
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
             #Buttons
-            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
+            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=closeall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
             GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Favorites, width=8, height=2)
             GoToFavorites_OP25.grid(row=0, column=1, padx=9, pady=3)
@@ -184,7 +189,7 @@ class OP25_GUI(threading.Thread):
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
             #Buttons
-            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
+            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=closeall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
             GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Favorites, width=8, height=2)
             GoToFavorites_OP25.grid(row=0, column=1, padx=9, pady=3)
@@ -232,7 +237,7 @@ class OP25_GUI(threading.Thread):
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
             #Buttons
-            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
+            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=closeall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
             GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Favorites, width=8, height=2)
             GoToFavorites_OP25.grid(row=0, column=1, padx=9, pady=3)
@@ -280,7 +285,7 @@ class OP25_GUI(threading.Thread):
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
             #Buttons
-            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
+            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=closeall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
             GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Favorites, width=8, height=2)
             GoToFavorites_OP25.grid(row=0, column=1, padx=9, pady=3)
@@ -329,7 +334,7 @@ class OP25_GUI(threading.Thread):
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
             #Buttons
-            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
+            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=closeall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
             GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Favorites, width=8, height=2)
             GoToFavorites_OP25.grid(row=0, column=1, padx=9, pady=3)
@@ -377,7 +382,7 @@ class OP25_GUI(threading.Thread):
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
             #Buttons
-            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
+            Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=closeall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
             GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Favorites, width=8, height=2)
             GoToFavorites_OP25.grid(row=0, column=1, padx=9, pady=3)
