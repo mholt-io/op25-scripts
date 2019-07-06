@@ -5,7 +5,8 @@
 """
 import sys
 from itertools import islice
-from subprocess import Popen, PIPE
+import subprocess
+import shlex
 from textwrap import dedent
 from threading import Thread
 
@@ -31,9 +32,9 @@ class DisplaySubprocessOutputDemo:
         # start dummy subprocess to generate some output
         # self.process = Popen(["tail -f /home/pi/op25/op25/gr-op25_repeater/apps/stderr.2 | while read a; do echo '$a' | grep do_metadata | stdbuf -o0  cut -d: -f2- | awk '{$1=$1};1'; done"], stdout=PIPE)
         # log = Popen(['tail','-f','/home/pi/op25/op25/gr-op25_repeater/apps/stderr.2','|','grep','do_metadata'], stdout=PIPE)
-        logfile = subprocess.Popen(('tail', '-f', '-n', '0', '/home/pi/op25/op25/gr-op25_repeater/apps/stderr.2', '|', 'grep', 'do_metadata'), stdout=PIPE)
-        self.process = subprocess.check_output(('stdbuf','-o0','cut','-d:','-f2-'), stdin=logfile.stdout)
-        # ps.wait()
+        cmd = "tail -f /home/pi/op25/op25/gr-op25_repeater/apps/stderr.2 | while read a; do echo '$a' | grep do_metadata | stdbuf -o0  cut -d: -f2- | awk '{$1=$1};1'; done"
+        ps = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+        self.process = ps.communicate()[0]
 
         self.process =
         # launch thread to read the subprocess output
