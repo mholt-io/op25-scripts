@@ -1,0 +1,28 @@
+/home/pi/.config/libfm/libfm.conf
+/etc/xdg/libfm/libfm.conf
+
+single_click=1
+
+
+~/.bashrc
+alias python='/usr/bin/python3.4'
+
+/boot/config.txt
+
+avoid_warnings=1
+
+hdmi_force_hotplug=1
+config_hdmi_boost=7
+hdmi_drive=2
+hdmi_force_hotplug=1
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 480 320 60 6 0 0 0
+
+
+
+sudo rm -rf LCD-show
+git clone https://github.com/goodtft/LCD-show.git
+chmod -R 755 LCD-show
+cd LCD-show/
+sudo ./MPI3508-show

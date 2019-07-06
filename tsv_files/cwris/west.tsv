@@ -1,0 +1,2 @@
+"Sysname"	"Control Channel List"	"Offset"	"NAC"	"Modulation"	"TGID Tags File"	"Whitelist"	"Blacklist"	"Center Frequency"
+"CWRIS_West"	"852.0625,852.275,852.800,852.9375,853.0875"	"-1200"	"0x109"	"cqpsk"	""	""	""	""

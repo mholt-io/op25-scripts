@@ -84,7 +84,7 @@ Menu_Home = {
            1: {'name': 'Burbank', 'type': 'menu', 'city': 'Burbank', 'group': 'Main'},
            2: {'name': 'Glendale', 'type': 'menu', 'city': 'Glendale', 'group': 'Main'},
            3: {'name': 'Pasadena', 'type': 'menu', 'city': 'Pasadena', 'group': 'Main'},
-           # 4: {'name': '', 'type': '', 'city': '', 'group': ''},
+           4: {'name': 'CWRIS', 'type': 'menu', 'city': 'LAC', 'group': 'CWIRS'},
            # 5: {'name': '', 'type': '', 'city': '', 'group': ''},
            # 6: {'name': '', 'type': '', 'city': '', 'group': ''},
            # 7: {'name': '', 'type': '', 'city': '', 'group': ''},
@@ -205,7 +205,24 @@ Menu_Pasadena_Verdugo = {
            14: {'name': '', 'type': '', 'city': '', 'group': ''},
            15: {'name': '', 'type': '', 'city': '', 'group': ''},
           }
-
+# Menu_LAC_CWIRS
+Menu_LAC_CWIRS = {
+           1: {'name': 'Basin', 'type': 'play', 'city': 'CWRIS', 'group': 'basin'},
+           2: {'name': 'East', 'type': 'play', 'city': 'CWRIS', 'group': 'east'},
+           3: {'name': 'Northwest', 'type': 'play', 'city': 'CWRIS', 'group': 'northwest'},
+           4: {'name': 'West', 'type': '', 'city': 'CWRIS', 'group': 'west'},
+           5: {'name': 'Thousand Oaks', 'type': 'play', 'city': 'CWRIS', 'group': 'thousand_oaks'},
+           6: {'name': 'Palmdale', 'type': 'play', 'city': 'CWRIS', 'group': 'palmdale'},
+           7: {'name': 'Catalina', 'type': 'play', 'city': 'CWIRS', 'group': 'catalina'},
+           8: {'name': '', 'type': '', 'city': '', 'group': ''},
+           9: {'name': '', 'type': '', 'city': '', 'group': ''},
+           10: {'name': '', 'type': '', 'city': '', 'group': ''},
+           11: {'name': '', 'type': '', 'city': '', 'group': ''},
+           12: {'name': '', 'type': '', 'city': '', 'group': ''},
+           13: {'name': '', 'type': '', 'city': '', 'group': ''},
+           14: {'name': '', 'type': '', 'city': '', 'group': ''},
+           15: {'name': '', 'type': '', 'city': '', 'group': ''},
+          }
 def stopall():
     os.system("pkill -f ./rx.py")
     global NowPlaying
