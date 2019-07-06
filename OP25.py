@@ -64,6 +64,7 @@ class OP25_GUI(threading.Thread):
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
+            self.mw.config(cursor="none")
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
@@ -98,6 +99,7 @@ class OP25_GUI(threading.Thread):
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
+            self.mw.config(cursor="none")
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
@@ -156,6 +158,7 @@ class OP25_GUI(threading.Thread):
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
+            self.mw.config(cursor="none")
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
@@ -208,6 +211,7 @@ class OP25_GUI(threading.Thread):
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
+            self.mw.config(cursor="none")
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
@@ -260,6 +264,7 @@ class OP25_GUI(threading.Thread):
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
+            self.mw.config(cursor="none")
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
@@ -312,6 +317,7 @@ class OP25_GUI(threading.Thread):
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
+            self.mw.config(cursor="none")
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
@@ -365,6 +371,7 @@ class OP25_GUI(threading.Thread):
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
+            self.mw.config(cursor="none")
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
@@ -417,6 +424,7 @@ class OP25_GUI(threading.Thread):
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
+            self.mw.config(cursor="none")
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
             back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
