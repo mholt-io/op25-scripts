@@ -371,7 +371,7 @@ class DisplayPlayer:
         back = tk.Frame(master=self.root,bg='Grey')
         back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
         back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
-        close = tk.Button(master=back, text='Close Monitor', command=lambda: self.quit)
+        close = tk.Button(master=back, text='Close Monitor', command=lambda:[self.process.kill(),self.root.destroy(),OP25_GUI().Menu_Home()])
         close.pack(side='bottom')
         self.title = tk.Label(master=back, text=" TalkGroup Monitor  ", font=(None, 36), fg='White', bg="Teal")
         self.title.grid(row=0, column=0)
