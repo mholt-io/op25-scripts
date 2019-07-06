@@ -16,6 +16,13 @@ except ImportError:
     import tkinter as tk # Python 3
     from queue import Queue, Empty # Python 3
 
+def iter_except(function, exception):
+    """Works like builtin 2-argument `iter()`, but stops on `exception`."""
+    try:
+        while True:
+            yield function()
+    except exception:
+        return
 
 class DisplaySubprocessOutputDemo:
     def __init__(self, root):
@@ -23,7 +30,7 @@ class DisplaySubprocessOutputDemo:
 
         # start dummy subprocess to generate some output
         # self.process = Popen(["tail -f /home/pi/op25/op25/gr-op25_repeater/apps/stderr.2 | while read a; do echo '$a' | grep do_metadata | stdbuf -o0  cut -d: -f2- | awk '{$1=$1};1'; done"], stdout=PIPE)
-        self.process = Popen(['tail','-f','/home/pi/op25/op25/gr-op25_repeater/apps/stderr.2','|','grep','do_metadata']
+        self.process = Popen(['tail','-f','/home/pi/op25/op25/gr-op25_repeater/apps/stderr.2','|','grep','do_metadata'], stdout=PIPE)
         # launch thread to read the subprocess output
         #   (put the subprocess output into the queue in a background thread,
         #    get output from the queue in the GUI thread.
