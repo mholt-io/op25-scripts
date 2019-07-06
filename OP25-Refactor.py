@@ -59,6 +59,7 @@ OP25_Path = "/home/pi/op25/op25/gr-op25_repeater/apps"
 # Define path to OP25 Log Output
 OP25_Log_Path = "/tmp"
 
+NowPlaying = ""
 # Menu_Favorites
 Menu_Favorites = {
            1: {'name': 'BRK - Verdugo', 'type': 'play', 'city': 'Burbank', 'group': 'Verdugo_All'},
@@ -207,6 +208,8 @@ Menu_Pasadena_Verdugo = {
 
 def stopall():
     os.system("pkill -f ./rx.py")
+    global NowPlaying
+    NowPlaying = ""
 
 def closeall(self):
     stopall
@@ -238,10 +241,12 @@ class OP25_GUI(threading.Thread):
         self.mw.protocol("WM_DELETE_WINDOW", app.quit)
         self.mw.mainloop()
 
-    def OP25CMD(self, type, city, group):
+    def OP25CMD(self, type, city, group, playing):
         if type is 'menu':
             buttons = 'Menu_'+city+'_'+group
             title = city+' '+group
+            global NowPlaying
+            NowPlaying = playing
             print(buttons)
             print(title)
             self.Menu(title, globals().get(buttons,None))
@@ -292,49 +297,49 @@ class OP25_GUI(threading.Thread):
                 Button_close = tk.Button(master=back, text='Quit', command=self.mw.destroy, width=5,height=1)
 
             if 1 in buttons:
-                Button_1 = tk.Button(master=back, text=buttons[1]['name'], command=lambda: self.OP25CMD(buttons[1]['type'],buttons[1]['city'],buttons[1]['group']), width=14, height=2)
+                Button_1 = tk.Button(master=back, text=buttons[1]['name'], command=lambda: self.OP25CMD(buttons[1]['type'],buttons[1]['city'],buttons[1]['group'],buttons[1]['name']), width=14, height=2)
                 Button_1.grid(row=1, column=1, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 2 in buttons:
-                Button_2 = tk.Button(master=back, text=buttons[2]['name'], command=lambda: self.OP25CMD(buttons[2]['type'],buttons[2]['city'],buttons[2]['group']), width=14, height=2)
+                Button_2 = tk.Button(master=back, text=buttons[2]['name'], command=lambda: self.OP25CMD(buttons[2]['type'],buttons[2]['city'],buttons[2]['group'],buttons[2]['name']), width=14, height=2)
                 Button_2.grid(row=1, column=2, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 3 in buttons:
-                Button_3 = tk.Button(master=back, text=buttons[3]['name'], command=lambda: self.OP25CMD(buttons[3]['type'],buttons[3]['city'],buttons[3]['group']), width=14, height=2)
+                Button_3 = tk.Button(master=back, text=buttons[3]['name'], command=lambda: self.OP25CMD(buttons[3]['type'],buttons[3]['city'],buttons[3]['group'],buttons[3]['name']), width=14, height=2)
                 Button_3.grid(row=1, column=3, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 4 in buttons:
-                Button_4 = tk.Button(master=back, text=buttons[4]['name'], command=lambda: self.OP25CMD(buttons[4]['type'],buttons[4]['city'],buttons[4]['group']), width=14, height=2)
+                Button_4 = tk.Button(master=back, text=buttons[4]['name'], command=lambda: self.OP25CMD(buttons[4]['type'],buttons[4]['city'],buttons[4]['group'],buttons[4]['name']), width=14, height=2)
                 Button_4.grid(row=2, column=1, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 5 in buttons:
-                Button_5 = tk.Button(master=back, text=buttons[5]['name'], command=lambda: self.OP25CMD(buttons[5]['type'],buttons[5]['city'],buttons[5]['group']), width=14, height=2)
+                Button_5 = tk.Button(master=back, text=buttons[5]['name'], command=lambda: self.OP25CMD(buttons[5]['type'],buttons[5]['city'],buttons[5]['group'],buttons[5]['name']), width=14, height=2)
                 Button_5.grid(row=2, column=2, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 6 in buttons:
-                Button_6 = tk.Button(master=back, text=buttons[6]['name'], command=lambda: self.OP25CMD(buttons[6]['type'],buttons[6]['city'],buttons[6]['group']), width=14, height=2)
+                Button_6 = tk.Button(master=back, text=buttons[6]['name'], command=lambda: self.OP25CMD(buttons[6]['type'],buttons[6]['city'],buttons[6]['group'],buttons[6]['name']), width=14, height=2)
                 Button_6.grid(row=2, column=3, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 7 in buttons:
-                Button_7 = tk.Button(master=back, text=buttons[7]['name'], command=lambda: self.OP25CMD(buttons[7]['type'],buttons[7]['city'],buttons[7]['group']), width=14, height=2)
+                Button_7 = tk.Button(master=back, text=buttons[7]['name'], command=lambda: self.OP25CMD(buttons[7]['type'],buttons[7]['city'],buttons[7]['group'],buttons[7]['name']), width=14, height=2)
                 Button_7.grid(row=3, column=1, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 8 in buttons:
-                Button_8 = tk.Button(master=back, text=buttons[8]['name'], command=lambda: self.OP25CMD(buttons[8]['type'],buttons[8]['city'],buttons[8]['group']), width=14, height=2)
+                Button_8 = tk.Button(master=back, text=buttons[8]['name'], command=lambda: self.OP25CMD(buttons[8]['type'],buttons[8]['city'],buttons[8]['group'],buttons[8]['name']), width=14, height=2)
                 Button_8.grid(row=3, column=2, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 9 in buttons:
-                Button_9 = tk.Button(master=back, text=buttons[9]['name'], command=lambda: self.OP25CMD(buttons[9]['type'],buttons[9]['city'],buttons[9]['group']), width=14, height=2)
+                Button_9 = tk.Button(master=back, text=buttons[9]['name'], command=lambda: self.OP25CMD(buttons[9]['type'],buttons[9]['city'],buttons[9]['group'],buttons[9]['name']), width=14, height=2)
                 Button_9.grid(row=3, column=3, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 10 in buttons:
-                Button_10 = tk.Button(master=back, text=buttons[10]['name'], command=lambda: self.OP25CMD(buttons[10]['type'],buttons[10]['city'],buttons[10]['group']), width=14, height=2)
+                Button_10 = tk.Button(master=back, text=buttons[10]['name'], command=lambda: self.OP25CMD(buttons[10]['type'],buttons[10]['city'],buttons[10]['group'],buttons[10]['name']), width=14, height=2)
                 Button_10.grid(row=4, column=1, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 11 in buttons:
-                Button_11 = tk.Button(master=back, text=buttons[11]['name'], command=lambda: self.OP25CMD(buttons[11]['type'],buttons[11]['city'],buttons[11]['group']), width=14, height=2)
+                Button_11 = tk.Button(master=back, text=buttons[11]['name'], command=lambda: self.OP25CMD(buttons[11]['type'],buttons[11]['city'],buttons[11]['group'],buttons[11]['name']), width=14, height=2)
                 Button_11.grid(row=4, column=2, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 12 in buttons:
-                Button_12 = tk.Button(master=back, text=buttons[12]['name'], command=lambda: self.OP25CMD(buttons[12]['type'],buttons[12]['city'],buttons[12]['group']), width=14, height=2)
+                Button_12 = tk.Button(master=back, text=buttons[12]['name'], command=lambda: self.OP25CMD(buttons[12]['type'],buttons[12]['city'],buttons[12]['group'],buttons[12]['name']), width=14, height=2)
                 Button_12.grid(row=4, column=3, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 13 in buttons:
-                Button_13 = tk.Button(master=back, text=buttons[13]['name'], command=lambda: self.OP25CMD(buttons[13]['type'],buttons[13]['city'],buttons[13]['group']), width=14, height=2)
+                Button_13 = tk.Button(master=back, text=buttons[13]['name'], command=lambda: self.OP25CMD(buttons[13]['type'],buttons[13]['city'],buttons[13]['group'],buttons[13]['name']), width=14, height=2)
                 Button_13.grid(row=5, column=1, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 14 in buttons:
-                Button_14 = tk.Button(master=back, text=buttons[14]['name'], command=lambda: self.OP25CMD(buttons[14]['type'],buttons[14]['city'],buttons[14]['group']), width=14, height=2)
+                Button_14 = tk.Button(master=back, text=buttons[14]['name'], command=lambda: self.OP25CMD(buttons[14]['type'],buttons[14]['city'],buttons[14]['group'],buttons[14]['name']), width=14, height=2)
                 Button_14.grid(row=5, column=2, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             if 15 in buttons:
-                Button_15 = tk.Button(master=back, text=buttons[15]['name'], command=lambda: self.OP25CMD(buttons[15]['type'],buttons[15]['city'],buttons[15]['group']), width=14, height=2)
+                Button_15 = tk.Button(master=back, text=buttons[15]['name'], command=lambda: self.OP25CMD(buttons[15]['type'],buttons[15]['city'],buttons[15]['group'],buttons[15]['name']), width=14, height=2)
                 Button_15.grid(row=5, column=3, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
 
 
@@ -348,7 +353,8 @@ class DisplayPlayer:
         # start dummy subprocess to generate some output
 
         self.process = Popen(['tail','-n','0','-f',OP25_Log_Path+'/stderr.2'], stdout=PIPE)
-
+        global NowPlaying
+        # NowPlaying = "Test"
         # launch thread to read the subprocess output
         #   (put the subprocess output into the queue in a background thread,
         #    get output from the queue in the GUI thread.
@@ -377,8 +383,10 @@ class DisplayPlayer:
         close.pack(side='bottom')
         self.title = tk.Label(master=back, text=" TalkGroup Monitor  ", font=(None, 36), fg='White', bg="Teal")
         self.title.grid(row=0, column=0)
-        self.label = tk.Label(master=back, text="Idle", font=(None, 25), fg='White', bg="Grey")
-        self.label.grid(row=1, pady=20, column=0, sticky='we')
+        self.title = tk.Label(master=back, text=NowPlaying, font=(None, 30), fg='White', bg="Grey")
+        self.title.grid(row=1, column=0)
+        self.label = tk.Label(master=back, text="Idle", font=(None, 22), fg='White', bg="Grey")
+        self.label.grid(row=2, pady=20, column=0, sticky='we')
         self.update(q) # start update loop
 
     def reader_thread(self, q):
