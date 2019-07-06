@@ -22,7 +22,7 @@ class DisplaySubprocessOutputDemo:
         self.root = root
 
         # start dummy subprocess to generate some output
-        self.process = Popen("tail -f ~/op25/op25/gr-op25_repeater/apps/stderr.2 | while read a; do echo '$a' | grep do_metadata | stdbuf -o0  cut -d: -f2- | awk '{$1=$1};1'; done"), stdout=PIPE)
+        self.process = os.system("tail -f ~/op25/op25/gr-op25_repeater/apps/stderr.2 | while read a; do echo '$a' | grep do_metadata | stdbuf -o0  cut -d: -f2- | awk '{$1=$1};1'; done")
 
         # launch thread to read the subprocess output
         #   (put the subprocess output into the queue in a background thread,
