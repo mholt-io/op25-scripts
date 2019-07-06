@@ -30,7 +30,7 @@ class DisplaySubprocessOutputDemo:
 
         # start dummy subprocess to generate some output
         # self.process = Popen(["tail -f /home/pi/op25/op25/gr-op25_repeater/apps/stderr.2 | while read a; do echo '$a' | grep do_metadata | stdbuf -o0  cut -d: -f2- | awk '{$1=$1};1'; done"], stdout=PIPE)
-        self.process = Popen(['tail','-f','/home/pi/op25/op25/gr-op25_repeater/apps/stderr.2','|','grep','do_metadata'], stdout=PIPE)
+        self.process = Popen(['tail','-n','0','-f','/home/pi/op25/op25/gr-op25_repeater/apps/stderr.2'], stdout=PIPE)
         # launch thread to read the subprocess output
         #   (put the subprocess output into the queue in a background thread,
         #    get output from the queue in the GUI thread.
@@ -41,7 +41,7 @@ class DisplaySubprocessOutputDemo:
         t.start()
 
         # show subprocess' stdout in GUI
-        self.label = tk.Label(root, text="  ", font=(None, 200))
+        self.label = tk.Label(root, text="  ", font=(None, 25))
         self.label.pack(ipadx=4, padx=4, ipady=4, pady=4, fill='both')
         self.update(q) # start update loop
 
@@ -50,7 +50,8 @@ class DisplaySubprocessOutputDemo:
         try:
             with self.process.stdout as pipe:
                 for line in iter(pipe.readline, b''):
-                    q.put(line)
+                    if 'do_metadata' in line
+                        q.put(line)
         finally:
             q.put(None)
 
