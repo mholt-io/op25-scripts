@@ -344,8 +344,9 @@ class DisplayPlayer:
         self.root = root
 
         # start dummy subprocess to generate some output
-        # self.process = Popen(["tail -f /home/pi/op25/op25/gr-op25_repeater/apps/stderr.2 | while read a; do echo '$a' | grep do_metadata | stdbuf -o0  cut -d: -f2- | awk '{$1=$1};1'; done"], stdout=PIPE)
+
         self.process = Popen(['tail','-n','0','-f',OP25_Log_Path+'/stderr.2'], stdout=PIPE)
+
         # launch thread to read the subprocess output
         #   (put the subprocess output into the queue in a background thread,
         #    get output from the queue in the GUI thread.
@@ -370,7 +371,7 @@ class DisplayPlayer:
         back = tk.Frame(master=self.root,bg='Grey')
         back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
         back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
-        close = tk.Button(master=back, text='Close Monitor', command=self.root.destroy)
+        close = tk.Button(master=back, text='Close Monitor', command=self.quit)
         close.pack(side='bottom')
         self.title = tk.Label(master=back, text=" TalkGroup Monitor  ", font=(None, 36), fg='White', bg="Teal")
         self.title.grid(row=0, column=0)
@@ -403,5 +404,6 @@ class DisplayPlayer:
     def quit(self):
         self.process.kill() # exit subprocess if GUI is closed (zombie!)
         self.root.destroy()
+        OP25_GUI().Menu_Home()
 if __name__ == '__main__':
     OP25_GUI().mw.mainloop()
