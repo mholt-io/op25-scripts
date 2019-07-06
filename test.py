@@ -30,7 +30,7 @@ class DisplaySubprocessOutputDemo:
 
         # start dummy subprocess to generate some output
         # self.process = Popen(["tail -f /home/pi/op25/op25/gr-op25_repeater/apps/stderr.2 | while read a; do echo '$a' | grep do_metadata | stdbuf -o0  cut -d: -f2- | awk '{$1=$1};1'; done"], stdout=PIPE)
-        self.process = Popen(['tail','-n','0','-f','/home/pi/op25/op25/gr-op25_repeater/apps/stderr.2'], stdout=PIPE)
+        self.process = Popen(['tail','-n','0','-f','stderr.2'], stdout=PIPE)
         # launch thread to read the subprocess output
         #   (put the subprocess output into the queue in a background thread,
         #    get output from the queue in the GUI thread.
@@ -61,9 +61,9 @@ class DisplaySubprocessOutputDemo:
             if line is None:
                 self.quit()
                 return
-            else:        
+            else:
                 text = line.split(b': ',1)[1]
-                self.label['text'] = test.split(b'] ',1)[1] # update GUI
+                self.label['text'] = text.split(b'] ',1)[1] # update GUI
                 break # display no more than one line per 40 milliseconds
         self.root.after(40, self.update, q) # schedule next update
 
