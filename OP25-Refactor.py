@@ -60,6 +60,26 @@ OP25_Path = "/home/pi/op25/op25/gr-op25_repeater/apps"
 OP25_Log_Path = "/tmp"
 
 NowPlaying = ""
+
+# Menu_Template
+Menu_Template = {
+          1: {'name': '', 'type': '', 'city': '', 'group': ''},
+          2: {'name': '', 'type': '', 'city': '', 'group': ''},
+          3: {'name': '', 'type': '', 'city': '', 'group': ''},
+          4: {'name': '', 'type': '', 'city': '', 'group': ''},
+          5: {'name': '', 'type': '', 'city': '', 'group': ''},
+          6: {'name': '', 'type': '', 'city': '', 'group': ''},
+          7: {'name': '', 'type': '', 'city': '', 'group': ''},
+          8: {'name': '', 'type': '', 'city': '', 'group': ''},
+          9: {'name': '', 'type': '', 'city': '', 'group': ''},
+          10: {'name': '', 'type': '', 'city': '', 'group': ''},
+          11: {'name': '', 'type': '', 'city': '', 'group': ''},
+          12: {'name': '', 'type': '', 'city': '', 'group': ''},
+          13: {'name': '', 'type': '', 'city': '', 'group': ''},
+          14: {'name': '', 'type': '', 'city': '', 'group': ''},
+          15: {'name': '', 'type': '', 'city': '', 'group': ''},
+         }
+
 # Menu_Favorites
 Menu_Favorites = {
            1: {'name': 'BRK - Verdugo', 'type': 'play', 'city': 'Burbank', 'group': 'Verdugo_All'},
@@ -85,7 +105,7 @@ Menu_Home = {
            2: {'name': 'Glendale', 'type': 'menu', 'city': 'Glendale', 'group': 'Main'},
            3: {'name': 'Pasadena', 'type': 'menu', 'city': 'Pasadena', 'group': 'Main'},
            4: {'name': 'CWRIS', 'type': 'menu', 'city': 'LAC', 'group': 'CWIRS'},
-           # 5: {'name': '', 'type': '', 'city': '', 'group': ''},
+           5: {'name': 'LA-RICS', 'type': 'menu', 'city': 'LAC', 'group': 'LARICS'},
            # 6: {'name': '', 'type': '', 'city': '', 'group': ''},
            # 7: {'name': '', 'type': '', 'city': '', 'group': ''},
            # 8: {'name': '', 'type': '', 'city': '', 'group': ''},
@@ -223,6 +243,24 @@ Menu_LAC_CWIRS = {
            14: {'name': '', 'type': '', 'city': '', 'group': ''},
            15: {'name': '', 'type': '', 'city': '', 'group': ''},
           }
+# Menu_LAC_LARICS
+Menu_LAC_LARICS = {
+          1: {'name': 'Verdugo Peak', 'type': 'play', 'city': 'LARICS', 'group': 'verdugo'},
+          2: {'name': 'West Covina', 'type': 'play', 'city': 'LARICS', 'group': 'westcovina'},
+          3: {'name': 'Torrence', 'type': 'play', 'city': 'LARICS', 'group': 'torrence'},
+          4: {'name': 'SCV/Granada', 'type': 'play', 'city': 'LARICS', 'group': 'scv_granada'},
+          5: {'name': 'Palmdale', 'type': 'play', 'city': 'LARICS', 'group': 'palmdale'},
+          6: {'name': 'Downtown LA', 'type': 'play', 'city': 'LARICS', 'group': 'downtownla'},
+          7: {'name': 'Azusa', 'type': 'play', 'city': 'LARICS', 'group': 'azusa'},
+          8: {'name': '', 'type': '', 'city': '', 'group': ''},
+          9: {'name': '', 'type': '', 'city': '', 'group': ''},
+          10: {'name': '', 'type': '', 'city': '', 'group': ''},
+          11: {'name': '', 'type': '', 'city': '', 'group': ''},
+          12: {'name': '', 'type': '', 'city': '', 'group': ''},
+          13: {'name': '', 'type': '', 'city': '', 'group': ''},
+          14: {'name': '', 'type': '', 'city': '', 'group': ''},
+          15: {'name': '', 'type': '', 'city': '', 'group': ''},
+         }
 def stopall():
     os.system("pkill -f ./rx.py")
     global NowPlaying
