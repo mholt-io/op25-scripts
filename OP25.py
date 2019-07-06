@@ -139,7 +139,7 @@ class OP25_GUI(threading.Thread):
             Button_15 = tk.Button(master=back, text='', command='', width=14, height=2)
             Button_15.grid(row=5, column=3, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
             Button_close = tk.Button(master=back, text='Quit', command=self.mw.destroy, width=5,height=1)
-            Button_close.grid(row=6, column=2, padx=9, pady=8)
+            Button_close.grid(row=6, column=2, padx=9, pady=3)
             #self.mw.mainloop()
 
     def Burbank(self):
