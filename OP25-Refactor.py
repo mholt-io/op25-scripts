@@ -285,9 +285,11 @@ class OP25_GUI(threading.Thread):
             if "Home" in title:
                 OP25Player = tk.Button(master=back, text='Monitor', command=lambda: self.OP25Player(), width=8, height=2)
                 OP25Player.grid(row=0, column=3, padx=9, pady=3)
+                Button_close = tk.Button(master=back, text='Quit', command=self.mw.destroy, width=5,height=2)
             else:
                 GoToMainMenu_OP25 = tk.Button(master=back, text='Main Menu', command=self.Menu_Home, width=8, height=2)
                 GoToMainMenu_OP25.grid(row=0, column=3, padx=9, pady=3)
+                Button_close = tk.Button(master=back, text='Quit', command=self.mw.destroy, width=5,height=1)
 
             if 1 in buttons:
                 Button_1 = tk.Button(master=back, text=buttons[1]['name'], command=lambda: self.OP25CMD(buttons[1]['type'],buttons[1]['city'],buttons[1]['group']), width=14, height=2)
@@ -335,7 +337,7 @@ class OP25_GUI(threading.Thread):
                 Button_15 = tk.Button(master=back, text=buttons[15]['name'], command=lambda: self.OP25CMD(buttons[15]['type'],buttons[15]['city'],buttons[15]['group']), width=14, height=2)
                 Button_15.grid(row=5, column=3, sticky=tk.W+tk.E+tk.N+tk.S, padx=9, pady=3)
 
-            Button_close = tk.Button(master=back, text='Quit', command=self.mw.destroy, width=5,height=1)
+
             Button_close.grid(row=6, column=2, padx=9, pady=3)
 
 
@@ -371,7 +373,7 @@ class DisplayPlayer:
         back = tk.Frame(master=self.root,bg='Grey')
         back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
         back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
-        close = tk.Button(master=back, text='Close Monitor', command=lambda:[self.process.kill(),self.root.destroy(),OP25_GUI().Menu_Home()])
+        close = tk.Button(master=back, height=3, text='Close Monitor', command=lambda:[self.process.kill(),self.root.destroy(),OP25_GUI().Menu_Home()])
         close.pack(side='bottom')
         self.title = tk.Label(master=back, text=" TalkGroup Monitor  ", font=(None, 36), fg='White', bg="Teal")
         self.title.grid(row=0, column=0)
