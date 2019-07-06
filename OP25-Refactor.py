@@ -231,12 +231,12 @@ class OP25_GUI(threading.Thread):
         atexit.register(stopall)
 
     def OP25Player(self):
-        print("Open Player")
-        # self.mw.destroy()
-        self.mw2 = tk.Tk()
-        app = DisplayPlayer(self.mw2)
-        self.mw2.protocol("WM_DELETE_WINDOW", app.quit)
-        self.mw2.mainloop()
+        # print("Open Player")
+        self.mw.destroy()
+        self.mw = tk.Tk()
+        app = DisplayPlayer(self.mw)
+        self.mw.protocol("WM_DELETE_WINDOW", app.quit)
+        self.mw.mainloop()
 
     def OP25CMD(self, type, city, group):
         if type is 'menu':
