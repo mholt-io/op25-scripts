@@ -60,7 +60,7 @@ class OP25_GUI(threading.Thread):
             #You can set the geometry attribute to change the root windows size
             self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
             self.mw.overrideredirect(True)
-            self.mw.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+            self.mw.geometry("{0}x{1}+0+0".format(self.mw.winfo_screenwidth(), self.mw.winfo_screenheight()))
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
@@ -94,7 +94,7 @@ class OP25_GUI(threading.Thread):
             #You can set the geometry attribute to change the root windows size
             self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
             self.mw.overrideredirect(True)
-            self.mw.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+            self.mw.geometry("{0}x{1}+0+0".format(self.mw.winfo_screenwidth(), self.mw.winfo_screenheight()))
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
@@ -146,7 +146,7 @@ class OP25_GUI(threading.Thread):
             #You can set the geometry attribute to change the root windows size
             self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
             self.mw.overrideredirect(True)
-            self.mw.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+            self.mw.geometry("{0}x{1}+0+0".format(self.mw.winfo_screenwidth(), self.mw.winfo_screenheight()))
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
@@ -198,7 +198,7 @@ class OP25_GUI(threading.Thread):
             #You can set the geometry attribute to change the root windows size
             self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
             self.mw.overrideredirect(True)
-            self.mw.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+            self.mw.geometry("{0}x{1}+0+0".format(self.mw.winfo_screenwidth(), self.mw.winfo_screenheight()))
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
@@ -250,7 +250,7 @@ class OP25_GUI(threading.Thread):
             #You can set the geometry attribute to change the root windows size
             self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
             self.mw.overrideredirect(True)
-            self.mw.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+            self.mw.geometry("{0}x{1}+0+0".format(self.mw.winfo_screenwidth(), self.mw.winfo_screenheight()))
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
@@ -302,7 +302,7 @@ class OP25_GUI(threading.Thread):
             #You can set the geometry attribute to change the root windows size
             self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
             self.mw.overrideredirect(True)
-            self.mw.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+            self.mw.geometry("{0}x{1}+0+0".format(self.mw.winfo_screenwidth(), self.mw.winfo_screenheight()))
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
@@ -355,7 +355,7 @@ class OP25_GUI(threading.Thread):
             #You can set the geometry attribute to change the root windows size
             self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
             self.mw.overrideredirect(True)
-            self.mw.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+            self.mw.geometry("{0}x{1}+0+0".format(self.mw.winfo_screenwidth(), self.mw.winfo_screenheight()))
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
@@ -407,7 +407,7 @@ class OP25_GUI(threading.Thread):
             #You can set the geometry attribute to change the root windows size
             self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
             self.mw.overrideredirect(True)
-            self.mw.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+            self.mw.geometry("{0}x{1}+0+0".format(self.mw.winfo_screenwidth(), self.mw.winfo_screenheight()))
             self.mw.focus_set()  # <-- move focus to this widget
             self.mw.bind("<Escape>", lambda e: e.widget.quit())
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
