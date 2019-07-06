@@ -41,7 +41,7 @@ def stopall():
 def closeall(self):
     stopall
     self.mw.destroy()
-    
+
 class OP25_GUI(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
@@ -58,7 +58,8 @@ class OP25_GUI(threading.Thread):
             self.mw.option_add("*Button.Foreground", "White")
             self.mw.title('OP25 - Main Menu')
             #You can set the geometry attribute to change the root windows size
-            self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            #self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            self.mw.attributes('-fullscreen', True)
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
@@ -88,7 +89,8 @@ class OP25_GUI(threading.Thread):
             self.mw.option_add("*Button.Foreground", "White")
             self.mw.title('OP25 - Favorites')
             #You can set the geometry attribute to change the root windows size
-            self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            #self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            self.mw.attributes('-fullscreen', True)
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
@@ -136,7 +138,8 @@ class OP25_GUI(threading.Thread):
             self.mw.option_add("*Button.Foreground", "White")
             self.mw.title('OP25 - Burbank')
             #You can set the geometry attribute to change the root windows size
-            self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            #self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            self.mw.attributes('-fullscreen', True)
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
@@ -184,7 +187,8 @@ class OP25_GUI(threading.Thread):
             self.mw.option_add("*Button.Foreground", "White")
             self.mw.title('OP25 - Burbank Verdugo')
             #You can set the geometry attribute to change the root windows size
-            self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            #self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            self.mw.attributes('-fullscreen', True)
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
@@ -232,7 +236,8 @@ class OP25_GUI(threading.Thread):
             self.mw.option_add("*Button.Foreground", "White")
             self.mw.title('OP25 - Glendale')
             #You can set the geometry attribute to change the root windows size
-            self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            #self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            self.mw.attributes('-fullscreen', True)
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
@@ -280,7 +285,8 @@ class OP25_GUI(threading.Thread):
             self.mw.option_add("*Button.Foreground", "White")
             self.mw.title('OP25 - Glendale Verdugo')
             #You can set the geometry attribute to change the root windows size
-            self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            #self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            self.mw.attributes('-fullscreen', True)
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
@@ -329,7 +335,8 @@ class OP25_GUI(threading.Thread):
             self.mw.option_add("*Button.Foreground", "White")
             self.mw.title('OP25 - Pasadena')
             #You can set the geometry attribute to change the root windows size
-            self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            #self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            self.mw.attributes('-fullscreen', True)
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
@@ -377,7 +384,8 @@ class OP25_GUI(threading.Thread):
             self.mw.option_add("*Button.Foreground", "White")
             self.mw.title('OP25 - Pasdaenda Verdugo')
             #You can set the geometry attribute to change the root windows size
-            self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            #self.mw.geometry("480x320") #You want the size of the app to be 750 X 562.5 Pixels (Slightky Smaller than the RPI 7" Touch Screens)
+            self.mw.attributes('-fullscreen', True)
             self.mw.resizable(0, 0) #Don't allow resizing in the x or y direction
             back = tk.Frame(master=self.mw,bg='Grey')
             back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
