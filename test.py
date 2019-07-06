@@ -50,7 +50,7 @@ class DisplaySubprocessOutputDemo:
         try:
             with self.process.stdout as pipe:
                 for line in iter(pipe.readline, b''):
-                    if 'do_metadata' in line
+                    if b'do_metadata' in line:
                         q.put(line)
         finally:
             q.put(None)
@@ -61,8 +61,9 @@ class DisplaySubprocessOutputDemo:
             if line is None:
                 self.quit()
                 return
-            else:
-                self.label['text'] = line # update GUI
+            else:        
+                text = line.split(b': ',1)[1]
+                self.label['text'] = test.split(b'] ',1)[1] # update GUI
                 break # display no more than one line per 40 milliseconds
         self.root.after(40, self.update, q) # schedule next update
 
