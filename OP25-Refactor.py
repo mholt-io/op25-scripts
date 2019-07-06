@@ -367,8 +367,7 @@ class DisplayPlayer:
         self.root.geometry("{0}x{1}+0+0".format(self.root.winfo_screenwidth(), self.root.winfo_screenheight()))
         self.root.focus_set()  # <-- move focus to this widget
         self.root.resizable(0, 0) #Don't allow resizing in the x or y direction
-        # self.root.config(cursor="none",wrap=WORD)
-        self.root.config(wrap=WORD)
+        # self.root.config(cursor="none")
         back = tk.Frame(master=self.root,bg='Grey')
         back.pack_propagate(0) #Don't allow the widgets inside to determine the frame's width / height
         back.pack(fill=tk.BOTH, expand=1) #Expand the frame to fill the root window
@@ -376,7 +375,7 @@ class DisplayPlayer:
         close.pack(side='bottom')
         self.title = tk.Label(master=back, text=" TalkGroup Monitor  ", font=(None, 36), fg='White', bg="Teal")
         self.title.grid(row=0, column=0)
-        self.label = tk.Label(master=back, text="Idle", font=(None, 25), fg='White', bg="Grey",wraplength=25)
+        self.label = tk.Label(master=back, text="Idle", font=(None, 25), fg='White', bg="Grey")
         self.label.grid(row=1, pady=20, column=0, sticky='we')
         self.update(q) # start update loop
 
