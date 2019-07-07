@@ -1,2 +1,2 @@
 Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
-Glendale_BPD	484.1875,482.1875,482.2375,482.2875	100	0x37b	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/bpd.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
+Glendale_BPD	484.1875,482.1875,482.2375,482.2875	-600	0x37b	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/bpd.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
