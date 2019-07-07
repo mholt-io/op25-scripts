@@ -1,2 +1,2 @@
 "Sysname"	"Control Channel List"	"Offset"	"NAC"	"Modulation"	"TGID Tags File"	"Whitelist"	"Blacklist"	"Center Frequency"
-"LARICS_Torrence"	"774.76875"	"-1200"	"0x690"	"cqpsk"	""	""	""	""
+"LARICS_Torrence"	"774.76875"	"-1200"	"0x690"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/larics/tgid.tsv"	"/home/pi/op25-scripts/tsv_files/larics/tgid-bl.tsv"	""	""
