@@ -1,2 +1,2 @@
 Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
-Pasadena_ICI	477.2125,477.3625,477.5125,477.6625	-100	0x37a	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv /home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv
+Pasadena_ICI	477.2125,477.3625,477.5125,477.6625	-100	0x37a	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	

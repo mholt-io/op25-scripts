@@ -1,2 +1,2 @@
 Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
-Glendale_Verdugo-Red3	484.1875,482.1875,482.2375,482.2875	100	0x37b	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/verdugo_red3.tsv /home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv
+Glendale_Verdugo-Red3	484.1875,482.1875,482.2375,482.2875	100	0x37b	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/verdugo_red3.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
