@@ -1,2 +1,2 @@
 "Sysname"	"Control Channel List"	"Offset"	"NAC"	"Modulation"	"TGID Tags File"	"Whitelist"	"Blacklist"	"Center Frequency"
-"CWRIS_East"	"851.9625,853.5875"	"-1200"	"0x107"	"cqpsk"	""	""	""	""
+"CWRIS_East"	"851.9625,853.5875"	"-1200"	"0x107"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/cwirs/tgid.tsv"	""	""	""
