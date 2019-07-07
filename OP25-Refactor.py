@@ -61,7 +61,7 @@ OP25_Log_Path = "/tmp"
 
 NowPlaying = ""
 
-# Menu_Template
+# Menu_Template (Menu_city_group)
 Menu_Template = {
           1: {'name': '', 'type': '', 'city': '', 'group': ''},
           2: {'name': '', 'type': '', 'city': '', 'group': ''},
@@ -106,7 +106,7 @@ Menu_Home = {
            3: {'name': 'Pasadena', 'type': 'menu', 'city': 'Pasadena', 'group': 'Main'},
            4: {'name': 'CWRIS', 'type': 'menu', 'city': 'LAC', 'group': 'CWIRS'},
            5: {'name': 'LA-RICS', 'type': 'menu', 'city': 'LAC', 'group': 'LARICS'},
-           # 6: {'name': '', 'type': '', 'city': '', 'group': ''},
+           6: {'name': 'Orange County', 'type': 'menu', 'city': 'OC', 'group': 'CCCS'},
            # 7: {'name': '', 'type': '', 'city': '', 'group': ''},
            # 8: {'name': '', 'type': '', 'city': '', 'group': ''},
            # 9: {'name': '', 'type': '', 'city': '', 'group': ''},
@@ -252,6 +252,25 @@ Menu_LAC_LARICS = {
           5: {'name': 'Palmdale', 'type': 'play', 'city': 'LARICS', 'group': 'palmdale'},
           6: {'name': 'Downtown LA', 'type': 'play', 'city': 'LARICS', 'group': 'downtownla'},
           7: {'name': 'Azusa', 'type': 'play', 'city': 'LARICS', 'group': 'azusa'},
+          8: {'name': '', 'type': '', 'city': '', 'group': ''},
+          9: {'name': '', 'type': '', 'city': '', 'group': ''},
+          10: {'name': '', 'type': '', 'city': '', 'group': ''},
+          11: {'name': '', 'type': '', 'city': '', 'group': ''},
+          12: {'name': '', 'type': '', 'city': '', 'group': ''},
+          13: {'name': '', 'type': '', 'city': '', 'group': ''},
+          14: {'name': '', 'type': '', 'city': '', 'group': ''},
+          15: {'name': '', 'type': '', 'city': '', 'group': ''},
+         }
+
+# Menu_Template (Menu_city_group)
+Menu_OC_CCCS = {
+          1: {'name': 'CountyWide', 'type': 'play', 'city': 'CCCS', 'group': 'CountyWide'},
+          2: {'name': 'North', 'type': 'play', 'city': 'CCCS', 'group': 'North'},
+          3: {'name': 'South', 'type': 'play', 'city': 'CCCS', 'group': 'South'},
+          4: {'name': '', 'type': '', 'city': '', 'group': ''},
+          5: {'name': '', 'type': '', 'city': '', 'group': ''},
+          6: {'name': '', 'type': '', 'city': '', 'group': ''},
+          7: {'name': '', 'type': '', 'city': '', 'group': ''},
           8: {'name': '', 'type': '', 'city': '', 'group': ''},
           9: {'name': '', 'type': '', 'city': '', 'group': ''},
           10: {'name': '', 'type': '', 'city': '', 'group': ''},
