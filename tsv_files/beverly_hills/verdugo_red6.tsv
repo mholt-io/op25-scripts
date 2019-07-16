@@ -1,2 +1,2 @@
 Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
-BeverlyHills_Verdugo-Red6	482.625,482.125,482.225	-600	0x37a	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/verdugo_red6.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
+BeverlyHills_Verdugo-Red6	482.625,482.125,482.225	-1200	0x37a	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/verdugo_red6.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	

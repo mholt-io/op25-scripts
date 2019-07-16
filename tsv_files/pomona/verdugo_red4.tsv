@@ -1,2 +1,2 @@
 Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
-Pomona_Verdugo-Red4	470.025,470.050,470.075,470.100	-600	0x37a	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/verdugo_red4.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
+Pomona_Verdugo-Red4	470.025,470.050,470.075,470.100	-1200	0x37a	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/verdugo_red4.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	

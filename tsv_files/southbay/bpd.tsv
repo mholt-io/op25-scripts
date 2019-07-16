@@ -1,2 +1,2 @@
 Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
-SouthBay_BPD	482.500,470.0125,470.0375,482.600	-600	0x370	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/bpd.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
+SouthBay_BPD	482.500,470.0125,470.0375,482.600	-1200	0x370	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/bpd.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
