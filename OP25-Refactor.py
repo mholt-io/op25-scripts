@@ -701,7 +701,7 @@ class OP25_GUI(threading.Thread):
         self.Menu(title, Menu_Favorites)
 
     def Menu_Favorites2(self):
-        title = "Favorites"
+        title = "Favorites #2"
         self.Menu(title, Menu_Favorites2)
 
 
