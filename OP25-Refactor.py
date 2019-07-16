@@ -92,7 +92,7 @@ class OP25_GUI(threading.Thread):
 
     def OP25CMD(self, type, city, group, playing):
         if type is 'menu':
-            buttons = 'Menu_'+city+'_'+group
+            buttons = 'OP25Menu.Menu_'+city+'_'+group
             title = city+' '+group
             print(buttons)
             print(title)
