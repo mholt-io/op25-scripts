@@ -1,2 +1,2 @@
 "Sysname"	"Control Channel List"	"Offset"	"NAC"	"Modulation"	"TGID Tags File"	"Whitelist"	"Blacklist"	"Center Frequency"
-"OC_North"	"853.400"	"-1200"	"0x452"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/cccs/tgid.tsv"	"/home/pi/op25-scripts/tsv_files/cccs/tgid-bl.tsv"	""	""
+"OC_North"	"853.400"	"-1200"	"0x452"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/cccs/tgid.tsv"	""	"/home/pi/op25-scripts/tsv_files/cccs/tgid-bl.tsv"	""

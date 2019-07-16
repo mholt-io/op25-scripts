@@ -1,2 +1,2 @@
 "Sysname"	"Control Channel List"	"Offset"	"NAC"	"Modulation"	"TGID Tags File"	"Whitelist"	"Blacklist"	"Center Frequency"
-"LARICS_Palmdale"	"477.950"	"-1200"	""	"cqpsk"	"/home/pi/op25-scripts/tsv_files/larics/tgid.tsv"	"/home/pi/op25-scripts/tsv_files/larics/tgid-bl.tsv"	""	""
+"LARICS_Palmdale"	"477.950"	"-1200"	""	"cqpsk"	"/home/pi/op25-scripts/tsv_files/larics/tgid.tsv"	""	"/home/pi/op25-scripts/tsv_files/larics/tgid-bl.tsv"	""

@@ -84,6 +84,25 @@ Menu_Favorites = {
            10: {'name': 'BRK - ICI', 'type': 'play', 'city': 'Burbank', 'group': 'ICI'},
            11: {'name': 'GLN - ICI', 'type': 'play', 'city': 'Glendale', 'group': 'ICI'},
            12: {'name': 'PSD - ICI', 'type': 'play', 'city': 'Pasadena', 'group': 'ICI'},
+           13: {'name': 'BRK - BUR EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'bur_emcom'},
+           14: {'name': 'GLN - GLEN EMOM', 'type': 'play', 'city': 'Glendale', 'group': 'glen_emom'},
+           15: {'name': 'BRK - GLEN EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'glen_emom'},
+          }
+
+# Menu_Favorites2
+Menu_Favorites2 = {
+           1: {'name': 'BRK - Verdugo', 'type': 'play', 'city': 'Burbank', 'group': 'Verdugo_All'},
+           2: {'name': 'GLN - Verdugo', 'type': 'play', 'city': 'Glendale', 'group': 'Verdugo_All'},
+           3: {'name': 'PSD - Verdugo', 'type': 'play', 'city': 'Pasdaenda', 'group': 'Verdugo_All'},
+           4: {'name': 'BRK - BPD', 'type': 'play', 'city': 'Burbank', 'group': 'BPD'},
+           5: {'name': 'GLN - BPD', 'type': 'play', 'city': 'Glendale', 'group': 'BPD'},
+           6: {'name': 'PSD - BPD', 'type': 'play', 'city': 'Pasadena', 'group': 'BPD'},
+           7: {'name': 'BRK - GPD', 'type': 'play', 'city': 'Burbank', 'group': 'GPD'},
+           8: {'name': 'GLN - GPD', 'type': 'play', 'city': 'Glendale', 'group': 'GPD'},
+           9: {'name': 'PSD - GPD', 'type': 'play', 'city': 'Pasadena', 'group': 'GPD'},
+           10: {'name': 'BRK - ICI', 'type': 'play', 'city': 'Burbank', 'group': 'ICI'},
+           11: {'name': 'GLN - ICI', 'type': 'play', 'city': 'Glendale', 'group': 'ICI'},
+           12: {'name': 'PSD - ICI', 'type': 'play', 'city': 'Pasadena', 'group': 'ICI'},
            13: {'name': '', 'type': '', 'city': '', 'group': ''},
            14: {'name': '', 'type': '', 'city': '', 'group': ''},
            15: {'name': '', 'type': '', 'city': '', 'group': ''},
@@ -681,6 +700,11 @@ class OP25_GUI(threading.Thread):
         title = "Favorites"
         self.Menu(title, Menu_Favorites)
 
+    def Menu_Favorites2(self):
+        title = "Favorites"
+        self.Menu(title, Menu_Favorites2)
+
+
     def Menu_Home(self):
         title = "Home"
         self.Menu(title, Menu_Home)
@@ -706,7 +730,10 @@ class OP25_GUI(threading.Thread):
             #Buttons
             Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
-            GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Menu_Favorites, width=8, height=2)
+            if "Favorites" in title:
+                GoToFavorites_OP25 = tk.Button(master=back, text='Favorites #2', command=self.Menu_Favorites2, width=8, height=2)
+            else:
+                GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Menu_Favorites, width=8, height=2)
             GoToFavorites_OP25.grid(row=0, column=1, padx=9, pady=3)
             if "Home" in title:
                 OP25Player = tk.Button(master=back, text='Monitor', command=lambda: self.OP25Player(), width=8, height=2)
