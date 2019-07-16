@@ -1,2 +1,2 @@
 "Sysname"	"Control Channel List"	"Offset"	"NAC"	"Modulation"	"TGID Tags File"	"Whitelist"	"Blacklist"	"Center Frequency"
-"Glendale_GLN_EmCom"	"484.1875,482.1875,482.2375,482.2875"	"-600"	"0x37b"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/ici/tgid.tsv"	"/home/pi/op25-scripts/tsv_files/ici/glen_emcom.tsv"	"/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	"	""
+"Glendale_GLN_EmCom"	"484.1875,482.1875,482.2375,482.2875"	"-600"	"0x37b"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/ici/tgid.tsv"	"/home/pi/op25-scripts/tsv_files/ici/glen_emcom.tsv"	"/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv"	""
