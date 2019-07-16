@@ -1,0 +1,2 @@
+Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
+SCV_&_SFV_Verdugo-Red2	472.6625,471.9375,472.200,472.6875	-600	0x370	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/verdugo_red2.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
