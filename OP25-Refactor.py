@@ -84,9 +84,9 @@ Menu_Favorites = {
            10: {'name': 'BRK - ICI', 'type': 'play', 'city': 'Burbank', 'group': 'ICI'},
            11: {'name': 'GLN - ICI', 'type': 'play', 'city': 'Glendale', 'group': 'ICI'},
            12: {'name': 'PSD - ICI', 'type': 'play', 'city': 'Pasadena', 'group': 'ICI'},
-           13: {'name': 'BRK - BUR EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'bur_emcom'},
-           14: {'name': 'GLN - GLEN EMOM', 'type': 'play', 'city': 'Glendale', 'group': 'glen_emcom'},
-           15: {'name': 'BRK - GLEN EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'glen_emcom'},
+           13: {'name': 'BRK - ALL EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'all_emcom'},
+           14: {'name': 'GLN - ALL EMCOM', 'type': 'play', 'city': 'Glendale', 'group': 'all_emcom'},
+           15: {'name': '', 'type': '', 'city': '', 'group': ''},
           }
 
 # Menu_Favorites2
@@ -152,7 +152,7 @@ Menu_Burbank_Main = {
            4: {'name': 'ICI', 'type': 'play', 'city': 'Burbank', 'group': 'ICI'},
            5: {'name': 'EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'bur_emcom'},
            6: {'name': 'GLN EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'glen_emcom'},
-           7: {'name': '', 'type': '', 'city': '', 'group': ''},
+           7: {'name': 'All EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'all_emcom'},
            8: {'name': '', 'type': '', 'city': '', 'group': ''},
            9: {'name': '', 'type': '', 'city': '', 'group': ''},
            10: {'name': '', 'type': '', 'city': '', 'group': ''},
@@ -188,7 +188,7 @@ Menu_Glendale_Main = {
            4: {'name': 'ICI', 'type': 'play', 'city': 'Glendale', 'group': 'ICI'},
            5: {'name': 'EMCOM', 'type': 'play', 'city': 'Glendale', 'group': 'glen_emcom'},
            6: {'name': 'BUR EMCOM', 'type': 'play', 'city': 'Glendale', 'group': 'bur_emcom'},
-           7: {'name': '', 'type': '', 'city': '', 'group': ''},
+           7: {'name': 'All EMCOM', 'type': 'play', 'city': 'Glendale', 'group': 'all_emcom'},
            8: {'name': '', 'type': '', 'city': '', 'group': ''},
            9: {'name': '', 'type': '', 'city': '', 'group': ''},
            10: {'name': '', 'type': '', 'city': '', 'group': ''},
