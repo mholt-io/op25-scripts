@@ -691,7 +691,7 @@ class OP25_GUI(threading.Thread):
 
         if type is 'play':
             global NowPlaying
-            if re.match(r'^GLN|^BRK|^PSD',city):
+            if re.match(r'^GLN|^BRK|^PSD',playing):
                 NowPlaying = playing
             else:
                 NowPlaying = city+" "+playing
