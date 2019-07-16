@@ -1,2 +1,2 @@
 "Sysname"	"Control Channel List"	"Offset"	"NAC"	"Modulation"	"TGID Tags File"	"Whitelist"	"Blacklist"	"Center Frequency"
-"CWRIS_Catalina"	"853.800"	"-800"	"0x10A"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/cwirs/tgid.tsv"	""	""	""
+"CWIRS_Catalina"	"853.800"	"-800"	"0x10A"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/cwirs/tgid.tsv"	""	""	""

@@ -1,2 +1,2 @@
 "Sysname"	"Control Channel List"	"Offset"	"NAC"	"Modulation"	"TGID Tags File"	"Whitelist"	"Blacklist"	"Center Frequency"
-"CWRIS_Northwest"	"851.2125,852.3125,853.2125"	"-800"	"0x108"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/cwirs/tgid.tsv"	""	""	""
+"CWIRS_Northwest"	"851.2125,852.3125,853.2125"	"-800"	"0x108"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/cwirs/tgid.tsv"	""	""	""
