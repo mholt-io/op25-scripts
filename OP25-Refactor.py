@@ -697,7 +697,7 @@ class OP25_GUI(threading.Thread):
                 NowPlaying = city+" "+playing
             # print("cd "+OP25_Path+"; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q -1 -T "+TSV_Files_Path+"/"+city.lower()+"/"+group.lower()+".tsv -V -2 -U 2> "+OP25_Log_Path+"/stderr.2 -l 'http:0.0.0.0:8080'&")
             os.system("pkill -f ./rx.py")
-            os.system("cd "+OP25_Path+"; ./rx.py -n --args 'rtl' -N 'LNA:47' -S 200000 -o 1.25e3 -q -1 -T "+TSV_Files_Path+"/"+city.lower()+"/"+group.lower()+".tsv -V -2 -U -v 5 2> "+OP25_Log_Path+"/stderr.2 -l 'http:0.0.0.0:8080'&")
+            os.system("cd "+OP25_Path+"; ./rx.py -n --args 'rtl' -N 'LNA:47' -S 96000 -o 1.25e3 -q -1 -T "+TSV_Files_Path+"/"+city.lower()+"/"+group.lower()+".tsv -V -2 -U -v 5 2> "+OP25_Log_Path+"/stderr.2 -l 'http:0.0.0.0:8080'&")
 
     def Menu_Favorites(self):
         title = "Favorites"
