@@ -730,7 +730,7 @@ class OP25_GUI(threading.Thread):
             #Buttons
             Stop_OP25 = tk.Button(master=back, text='Stop OP25', command=stopall, width=8, height=2)
             Stop_OP25.grid(row=0, column=2, padx=9, pady=3)
-            if "Favorites" in title:
+            if "Favorites" is title:
                 GoToFavorites_OP25 = tk.Button(master=back, text='Favorites #2', command=self.Menu_Favorites2, width=8, height=2)
             else:
                 GoToFavorites_OP25 = tk.Button(master=back, text='Favorites', command=self.Menu_Favorites, width=8, height=2)
