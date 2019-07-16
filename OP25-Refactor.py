@@ -40,7 +40,7 @@ from subprocess import Popen, PIPE
 from textwrap import dedent
 from queue import Queue, Empty
 from threading import Thread
-
+import re
 # Menu Notes
 '''
 1) Global Variables should be created to define each menu with a prefix of "Menu_"
@@ -85,8 +85,8 @@ Menu_Favorites = {
            11: {'name': 'GLN - ICI', 'type': 'play', 'city': 'Glendale', 'group': 'ICI'},
            12: {'name': 'PSD - ICI', 'type': 'play', 'city': 'Pasadena', 'group': 'ICI'},
            13: {'name': 'BRK - BUR EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'bur_emcom'},
-           14: {'name': 'GLN - GLEN EMOM', 'type': 'play', 'city': 'Glendale', 'group': 'glen_emom'},
-           15: {'name': 'BRK - GLEN EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'glen_emom'},
+           14: {'name': 'GLN - GLEN EMOM', 'type': 'play', 'city': 'Glendale', 'group': 'glen_emcom'},
+           15: {'name': 'BRK - GLEN EMCOM', 'type': 'play', 'city': 'Burbank', 'group': 'glen_emcom'},
           }
 
 # Menu_Favorites2
@@ -691,7 +691,10 @@ class OP25_GUI(threading.Thread):
 
         if type is 'play':
             global NowPlaying
-            NowPlaying = city+" "+playing
+            if re.match(r'^GLN|^BRK|^PSD',city):
+                NowPlaying = playing
+            else:
+                NowPlaying = city+" "+playing
             # print("cd "+OP25_Path+"; ./rx.py --args 'rtl' -N 'LNA:49' -S 2400000 -o 25000 -q -1 -T "+TSV_Files_Path+"/"+city.lower()+"/"+group.lower()+".tsv -V -2 -U 2> "+OP25_Log_Path+"/stderr.2 -l 'http:0.0.0.0:8080'&")
             os.system("pkill -f ./rx.py")
             os.system("cd "+OP25_Path+"; ./rx.py -n --args 'rtl' -N 'LNA:47' -o 25000 -q -1 -T "+TSV_Files_Path+"/"+city.lower()+"/"+group.lower()+".tsv -V -2 -U -v 5 2> "+OP25_Log_Path+"/stderr.2 -l 'http:0.0.0.0:8080'&")
