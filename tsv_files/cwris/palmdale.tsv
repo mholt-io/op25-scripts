@@ -1,2 +1,2 @@
 "Sysname"	"Control Channel List"	"Offset"	"NAC"	"Modulation"	"TGID Tags File"	"Whitelist"	"Blacklist"	"Center Frequency"
-"CWRIS_Palmdale"	"852.300,853.275,851.225"	"-1200"	"0x00A"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/cwirs/tgid.tsv"	""	""	""
+"CWRIS_Palmdale"	"852.300,853.275,851.225"	"-800"	"0x00A"	"cqpsk"	"/home/pi/op25-scripts/tsv_files/cwirs/tgid.tsv"	""	""	""

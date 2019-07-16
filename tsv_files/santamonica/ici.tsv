@@ -1,2 +1,2 @@
 Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
-SantaMonica_ICI	471.0625,471.0875,482.325,482.525	-1200	0x370	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv		/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
+SantaMonica_ICI	471.0625,471.0875,482.325,482.525	-800	0x370	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv		/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	

@@ -1,2 +1,2 @@
 Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
-Burbank_Verdugo-Red9	470.0625,470.1125,470.1625,470.2375	-1200	0x37e	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/verdugo_red9.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
+Burbank_Verdugo-Red9	470.0625,470.1125,470.1625,470.2375	-800	0x37e	CQPSK	/home/pi/op25-scripts/tsv_files/ici/tgid.tsv	/home/pi/op25-scripts/tsv_files/ici/verdugo_red9.tsv	/home/pi/op25-scripts/tsv_files/ici/tgid-bl.tsv	
