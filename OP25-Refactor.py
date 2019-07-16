@@ -34,7 +34,7 @@ import os
 import threading
 import atexit
 import sys
-import OP25-Menu
+import OP25Menu
 from itertools import islice
 from subprocess import Popen, PIPE
 from textwrap import dedent
